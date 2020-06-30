@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,600,700,800&display=swap');
+body {
+    background-image: url(../../assets/background-image1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Nunito Sans;
+}
+
+.match {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    margin: 30px;
+    font-style: bold;
+    list-style: none;
+}
+
+header div {
+    width: 1000px;
+    margin: 30px;
+}
+
+header div ul {
+    display: grid;
+    padding-left: 15px;
+    grid-template-columns: minmax(11, 1fr);
+    border-top-style: ridge;
+    margin: 0px;
+    height: 38px;
+    background-color: white;
+}
+
+#one {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-color: rgb(243, 109, 109);
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(98, 98, 185);
+    cursor: pointer;
+}
+
+#top1 {
+    display: grid;
+    grid-template-columns: 8.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#bro {
+    padding-left: 25px;
+}
+
+.Indian {
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    position: relative;
+    font-style: bold;
+    margin-left: 80px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+h5 {
+    color: gray;
+}
